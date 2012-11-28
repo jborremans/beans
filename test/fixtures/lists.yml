@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  idea: MyText
+  todo: MyText
+  completed: 2012-11-28
+
+two:
+  idea: MyText
+  todo: MyText
+  completed: 2012-11-28
