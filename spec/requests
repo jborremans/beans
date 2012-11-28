@@ -1,0 +1,15 @@
+require 'spec_helper'
+
+describe "list" do
+
+  it "list" do
+    visit root_path
+    click_link "list"
+    click_link "list"
+    fill_in "text", :with => "New "
+    fill_in "todo", :with => "The description"
+    click_button "Save"
+    page.should have_content "Item list was successfully created."
+    page.should have_content "list Collection"
+  end
+e

@@ -13,6 +13,10 @@ gem 'sqlite3'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'less-rails'
+  gem 'therubyracer'
+  gem 'twitter-bootstrap-rails'
+ 
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -25,8 +29,8 @@ gem 'jquery-rails'
 gem "rspec-rails", ">= 2.0.1", :group => [:development, :test]
 gem "capybara", :group => [:development, :test]
 gem "fuubar", :group => [:development, :test]
-
 gem "launchy", :group => [:development, :test]
+
 
 gem "haml", ">= 3.0.0"
 gem "haml-rails"
