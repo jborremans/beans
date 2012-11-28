@@ -22,6 +22,18 @@ end
 
 gem 'jquery-rails'
 
+gem "rspec-rails", ">= 2.0.1", :group => [:development, :test]
+gem "capybara", :group => [:development, :test]
+gem "fuubar", :group => [:development, :test]
+
+gem "launchy", :group => [:development, :test]
+
+gem "haml", ">= 3.0.0"
+gem "haml-rails"
+
+gem 'inherited_resources'
+gem 'simple_form'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
